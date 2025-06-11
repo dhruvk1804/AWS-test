@@ -73,7 +73,6 @@ def check_security_groups():
     except Exception as e:
         print(f"Error checking security groups: {e}")
 
-# ---------- MAIN ----------
 if __name__ == "__main__":
     check_s3_misconfigs()
     check_rds_misconfigs()
